@@ -1,9 +1,49 @@
 :root {
-    --branding-color:#f8f9fa;
-    --secondary-color:#cfe2ff;
+    --branding-color:#9f34e6;
+    --secondary-color:rgba(222, 63, 243, 0.3);
     --heading-font-family:"Playfair Display", serif;
     --default-font-family:'Poppins', serif;
 }
+@madia(max-width:900px){
+    h1{
+        font-size: 34px;
+        line-height: 1.3;
+    }
+    h2{
+        font-size: 28px;
+    }
+    
+.hero {
+    padding: 100px 20px;
+}
+    .project-container{
+        padding: 0;
+        text-align: center;
+    }
+}
+@media (min-width: 768px){
+    .project-container{
+        max-width: 720px;
+        padding: 0;
+        text-align: center;
+    }
+    .hero {
+        padding: 100px 20px;
+        text-align: center;
+    }
+    }
+    @media (min-width: 576px){
+        .project-container{
+            max-width: 720px;
+            padding: 0;
+            text-align: center;
+        }
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        }
+    
 
 h1, h2, h3{
     color: black;
@@ -12,17 +52,23 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 96px;
+    font-size: 76px;
+}
+h2{
+    font-size: 54px;
 }
 
 p{
     font-family: var(--heading-font-family);
     font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .hero {
     background: var(--secondary-color) ;
     text-align: center;
+    padding: 160px 20px;
 }
 .hero p{
     font-size: 36px;   
@@ -36,13 +82,16 @@ p{
 }
 
 
-.btn  {
+/* .btn  {
     background-color: var(--branding-color);
     border: var(--branding-color) 1px solid;
-   
-}
+    color: bisque;
+} */
 
 .btn-branding {
+    color: bisque;
+    background-color: var(--branding-color);
+    border: var(--branding-color) 1px solid;
     padding: 12px 20px;
     font-family: 'Poppins', serif;
     font-weight: bold;
@@ -50,3 +99,17 @@ p{
     line-height: 27px;
     font-size: 18px;
 }
+
+.btn-branding-outline{
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 5px;
+    line-height: 27px;
+    font-size: 18px;
+    padding: 12px 20px;  
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
