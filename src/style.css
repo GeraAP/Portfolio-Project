@@ -32,7 +32,7 @@
         text-align: center;
     }
     }
-    @media (min-width: 576px){
+    /* @media (min-width: 576px){
         .project-container{
             max-width: 720px;
             padding: 0;
@@ -42,7 +42,7 @@
             padding: 100px 20px;
             text-align: center;
         }
-        }
+        } */
     
 
 h1, h2, h3{
@@ -63,6 +63,7 @@ p{
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+    
 }
 
 .hero {
@@ -108,8 +109,8 @@ p{
     font-size: 18px;
     padding: 12px 20px;  
 }
-.img-fluid {
+/* .img-fluid {
     max-width: 100%;
     height: auto;
-}
+} */
 
