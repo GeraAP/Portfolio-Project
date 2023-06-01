@@ -23,7 +23,7 @@
 }
 @media (min-width: 768px){
     .project-container{
-        max-width: 720px;
+       
         padding: 0;
         text-align: center;
     }
