@@ -4,7 +4,7 @@
     --heading-font-family:"Playfair Display", serif;
     --default-font-family:'Poppins', serif;
 }
-@madia(max-width:900px){
+@media (max-width: 900px){
     h1{
         font-size: 34px;
         line-height: 1.3;
@@ -21,27 +21,6 @@
         text-align: center;
     }
 }
-@media (min-width: 768px){
-    .project-container{
-        padding: 0;
-        text-align: center;
-    }
-    .hero {
-        padding: 100px 20px;
-        text-align: center;
-    }
-    }
-    /* @media (min-width: 576px){
-        .project-container{
-            max-width: 720px;
-            padding: 0;
-            text-align: center;
-        }
-        .hero {
-            padding: 100px 20px;
-            text-align: center;
-        }
-        } */
     
 
 h1, h2, h3{
@@ -82,12 +61,6 @@ p{
 }
 
 
-/* .btn  {
-    background-color: var(--branding-color);
-    border: var(--branding-color) 1px solid;
-    color: bisque;
-} */
-
 .btn-branding {
     color: bisque;
     background-color: var(--branding-color);
@@ -108,8 +81,33 @@ p{
     font-size: 18px;
     padding: 12px 20px;  
 }
-/* .img-fluid {
-    max-width: 100%;
-    height: auto;
-} */
 
+.content {
+        text-align: center;
+        padding: 0;
+      }
+     
+      footer .email-link {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+      }
+      footer .email-link:hover {
+        color: var(--branding-color);
+      }
+      footer .social-links a {
+        margin: 0 10px;
+        color: var(--branding-color);
+        background: var(--secondary-color);
+        padding: 10px 14px;
+        font-size: 18px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      footer .social-links a:hover {
+        color: white;
+        background: var(--branding-color);
+        transition: all 100ms ease-in-out;
+      }
+
+    
