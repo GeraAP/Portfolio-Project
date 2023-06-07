@@ -131,3 +131,20 @@ p{
     img{
         width: 448px;
     }
+    .logo {
+        max-height: 0px;
+        max-width: 150px;
+    }
+
+    .navbar-brand{
+        font-family: 'Poppins', serif;
+        font-weight: bold; 
+        font-size: 30px;
+        color: var(--branding-color);
+      
+    white-space: nowrap; 
+    }
+    nav{
+        padding: 30px 0;
+    }
+
