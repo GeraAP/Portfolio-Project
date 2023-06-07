@@ -15,11 +15,13 @@
     
 .hero {
     padding: 100px 20px;
+    text-align: center;
 }
     .project-container{
         padding: 0;
         text-align: center;
     }
+   
 }
     
 
