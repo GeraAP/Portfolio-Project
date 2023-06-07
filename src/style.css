@@ -12,6 +12,13 @@
     h2{
         font-size: 28px;
     }
+
+    @media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+    }
     
 .hero {
     padding: 100px 20px;
@@ -112,4 +119,15 @@ p{
         transition: all 100ms ease-in-out;
       }
 
+      .content-container {
+        text-align: center;
+        padding: 60px 20px;
+    }
     
+    .content h1 {
+        font-size: 64px;
+        line-height: 80px;
+    }
+    img{
+        width: 448px;
+    }
