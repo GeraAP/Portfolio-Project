@@ -94,6 +94,7 @@
    
         text-align: center;
         padding: 0;
+        margin: 30px;
       }
      
       footer .email-link {
@@ -133,6 +134,7 @@
 
     img{
         width: 448px;
+        padding: 20px ;
     }
     .logo {
         max-height: 0px;
@@ -159,4 +161,7 @@
         padding: 30px;
         margin-bottom: 50px;
         border-radius: 10px;
+    }
+    .works {
+        padding: 20px 0px;
     }
